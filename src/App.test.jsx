@@ -2,8 +2,10 @@ import { render } from '@testing-library/react';
 import App from './App';
 
 describe('App component', () => {
-  it('should render increment button', () => {
+  it('on click increment button should increment the count', () => {
     const { getByText } = render(<App />);
-    getByText('Increment');
+    getByText('Count 0');
+    getByText('Increment').click();
+    getByText('Count 1');
   });
 });
