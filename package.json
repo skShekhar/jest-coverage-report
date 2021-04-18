@@ -10,8 +10,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "jest test",
-    "coverage": "jest test --coverage --coverageReporters=\"text\" --coverageReporters=\"text-summary\"",
+    "test": "jest",
+    "coverage:format": "jest --coverage --coverageReporters=\"text\" --coverageReporters=\"text-summary\"",
     "lint": "eslint src/"
   },
   "browserslist": {
