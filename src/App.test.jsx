@@ -1,5 +1,5 @@
 import { render } from '@testing-library/react';
-import App from './App';
+import App, { subtract } from './App';
 
 describe('App component', () => {
   it('should render increment button', () => {
